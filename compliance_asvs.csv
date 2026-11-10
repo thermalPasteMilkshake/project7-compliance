@@ -1,0 +1,13 @@
+Finding ID,Finding,ASVS Section,ASVS Requirement,Requirement Summary
+F-01,SQL Injection (DVWA User ID),"V5 Validation, Sanitization & Encoding",V5.3.4,Parameterised queries / prepared statements prevent SQL injection
+F-02,"Authentication bypass via SQLi (credential extraction, MD5)",V2 Authentication,V2.4.1,"Passwords stored with an approved one-way hash (bcrypt/argon2), not MD5"
+F-03,"Secrets embedded in AI system prompt (DB password, API key)",V6 Stored Cryptography,V6.4.1,"Secrets held in a secret vault, not hardcoded in source/config"
+F-04,Prompt injection -> system-prompt disclosure,"V5 Validation, Sanitization & Encoding",V5.1.3,Validate and sanitise all untrusted input
+F-05,Flask debug mode enabled (Werkzeug debugger),V14 Configuration,V14.3.2,Debug modes / interactive debugger disabled in production
+F-06,Reflected XSS (DVWA name field),"V5 Validation, Sanitization & Encoding",V5.3.3,Context-aware output encoding prevents XSS
+F-07,Missing security headers / cookies without HttpOnly,V14 Configuration,V14.4.3,"CSP, anti-clickjacking and cookie-security headers set"
+F-08,MCP arbitrary command execution (execute_command RCE),"V5 Validation, Sanitization & Encoding",V5.3.8,OS command injection prevented (no shell=True; allow-listed calls)
+F-09,MCP path traversal (read_file arbitrary file read),V12 Files and Resources,V12.3.1,User-supplied path validated; path traversal prevented
+F-10,MCP resource poisoning / capability chaining (indirect injection),"V5 Validation, Sanitization & Encoding",V5.1.3,Validate/sanitise all untrusted input incl. tool & resource content
+F-11,CI/CD pipeline without security gates,V14 Configuration,V14.1.1,Build pipeline enforces SAST / secret / dependency scanning
+F-12,Vulnerable / unpinned dependencies,V14 Configuration,V14.2.1,All components up to date and free of known vulnerabilities

@@ -1,0 +1,13 @@
+Finding ID,Finding,NIST CSF Function,Subcategory,Subcategory Summary
+F-01,SQL Injection (DVWA User ID),Protect,PR.DS-5,Protections against data leaks are implemented
+F-02,"Authentication bypass via SQLi (credential extraction, MD5)",Protect,PR.AC-1,Identities and credentials are managed for authorized users
+F-03,"Secrets embedded in AI system prompt (DB password, API key)",Protect,PR.AC-1,Identities and credentials are managed
+F-04,Prompt injection -> system-prompt disclosure,Protect,PR.DS-5,Protections against data leaks are implemented
+F-05,Flask debug mode enabled (Werkzeug debugger),Protect,PR.IP-1,A baseline secure configuration is created and maintained
+F-06,Reflected XSS (DVWA name field),Protect,PR.DS-5,Protections against data leaks are implemented
+F-07,Missing security headers / cookies without HttpOnly,Protect,PR.IP-1,A baseline secure configuration is created and maintained
+F-08,MCP arbitrary command execution (execute_command RCE),Protect,PR.AC-4,Access permissions incorporate least privilege
+F-09,MCP path traversal (read_file arbitrary file read),Protect,PR.DS-5,Protections against data leaks are implemented
+F-10,MCP resource poisoning / capability chaining (indirect injection),Protect,PR.AC-4,Access permissions incorporate least privilege (per-tool authorization)
+F-11,CI/CD pipeline without security gates,Protect,PR.IP-2,A System Development Life Cycle to manage systems is implemented
+F-12,Vulnerable / unpinned dependencies,Identify,ID.RA-1,Asset vulnerabilities are identified and documented

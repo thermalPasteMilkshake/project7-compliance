@@ -1,0 +1,4 @@
+Framework,Distinct failed controls,Assessed controls (scope),Pass rate,Overall status,Single most important reason
+OWASP ASVS L2,11,25,56%,Red,"Input validation (V5) fails across SQLi, XSS, prompt injection, OS command injection and path traversal; secret management (V6.4) also fails."
+NIST CSF,6,15,60%,Red,"Protect function broadly failing - credential management (PR.AC), secure configuration (PR.IP) and data-leak protection (PR.DS) all have failed subcategories."
+EU AI Act,3,9,67%,Amber,"Article 15 (robustness & cybersecurity) is unmet for the AI/web/MCP layers, but governance gaps (Art 9/10) are process-addressable and the system is a pre-deployment local lab."

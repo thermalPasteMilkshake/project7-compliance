@@ -1,0 +1,13 @@
+Finding ID,Finding,EU AI Act Article,Article Summary
+F-01,SQL Injection (DVWA User ID),Article 15,"Accuracy, robustness and cybersecurity"
+F-02,"Authentication bypass via SQLi (credential extraction, MD5)",Article 15,"Accuracy, robustness and cybersecurity"
+F-03,"Secrets embedded in AI system prompt (DB password, API key)",Article 10,Data and data governance
+F-04,Prompt injection -> system-prompt disclosure,Article 15,"Accuracy, robustness and cybersecurity"
+F-05,Flask debug mode enabled (Werkzeug debugger),Article 9,Risk management system
+F-06,Reflected XSS (DVWA name field),Article 15,"Accuracy, robustness and cybersecurity"
+F-07,Missing security headers / cookies without HttpOnly,Article 9,Risk management system
+F-08,MCP arbitrary command execution (execute_command RCE),Article 15,"Accuracy, robustness and cybersecurity"
+F-09,MCP path traversal (read_file arbitrary file read),Article 15,"Accuracy, robustness and cybersecurity"
+F-10,MCP resource poisoning / capability chaining (indirect injection),Article 15,"Accuracy, robustness and cybersecurity"
+F-11,CI/CD pipeline without security gates,Article 9,Risk management system
+F-12,Vulnerable / unpinned dependencies,Article 15,"Accuracy, robustness and cybersecurity"
